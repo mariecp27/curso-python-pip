@@ -19,6 +19,7 @@ python main.py
 La carpeta **app** contiene un generador de gráficas a través de *matplotlib* para la población mundial a través de los años. Para su ejecución se necesita:
 ```sh
 cd app
+python -m venv env
 env/Scripts/activate
 pip install -r requirements.txt
 python main.py
